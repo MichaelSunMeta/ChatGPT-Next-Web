@@ -10,7 +10,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 XYZ AI 的 ${count} 条对话`,
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -40,7 +40,7 @@ const cn = {
     Copy: "全部复制",
     Download: "下载文件",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 ChatGPT 的消息",
+    MessageFromChatGPT: "来自 XYZ AI 的消息",
   },
   Memory: {
     Title: "历史摘要",
@@ -132,11 +132,10 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
-      Placeholder: "OpenAI API Key",
+      Title: "激活码",
+      SubTitle: "使用自己的 激活码 可绕过密码访问限制",
+      Placeholder: "XYZCLoud激活码",
     },
-
     Usage: {
       Title: "余额查询",
       SubTitle(used: any, total: any) {
@@ -144,7 +143,7 @@ const cn = {
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
-      NoAccess: "输入 API Key 或访问密码查看余额",
+      NoAccess: "输入 XYZCLoud激活码 看余额",
     },
     AccessCode: {
       Title: "访问密码",
@@ -167,7 +166,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "你好！我是XYZCLoud的AI，请问有什么可以帮你的吗？👋,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
