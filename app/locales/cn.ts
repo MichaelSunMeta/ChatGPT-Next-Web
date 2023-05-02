@@ -166,7 +166,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！我是XYZCLoud的AI，请问有什么可以帮你的吗？👋,
+    BotHello: "你好！我是XYZCLoud的AI，请问有什么可以帮你的吗？👋",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
