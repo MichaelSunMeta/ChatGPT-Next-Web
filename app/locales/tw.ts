@@ -165,7 +165,7 @@ const tw: LocaleType = {
   },
   Store: {
     DefaultTopic: "新的對話",
-    BotHello: "我是XYZCLoud的AI，請問有什麼可以幫你的嗎？ 👋",
+    BotHello: "你好！我是XYZCLoud的AI，請問有什麼可以幫你的嗎？ 👋",
     Error: "出錯了，請稍後再嘗試",
     Prompt: {
       History: (content: string) =>
